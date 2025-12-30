@@ -2667,17 +2667,28 @@ ol {
 	.slicknav_nav {
 		display: block !important;
 	}
-	.offcanvas__widget span {
-		font-size: 14px;
-		font-family: "Aldrich", sans-serif;
-		color: #b7b7b7;
-		display: block;
-		margin-bottom: 10px;
-	}
-	.offcanvas__widget h4 {
-		font-size: 22px;
-		color: #dfa667;
-	}
+	.offcanvas__widget {
+    text-align: center;
+}
+
+.offcanvas__widget span {
+    font-size: 14px;
+    font-family: "Aldrich", sans-serif;
+    color: #b7b7b7;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.offcanvas__widget a i {
+    font-size: 60px;
+    color: #ffffff;
+    transition: all 0.3s;
+    display: block;
+}
+
+.offcanvas__widget a:hover i {
+    color: #25D366;
+}
 	.header__menu {
 		display: none;
 	}
