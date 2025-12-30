@@ -1,0 +1,5 @@
+/:splat  /:splat.html 200
+/:splat.html  /:splat  301!
+
+# Fallback to index for missing assets (optional)
+/#    /index.html 200
